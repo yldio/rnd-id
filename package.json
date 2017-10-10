@@ -1,6 +1,6 @@
 {
   "name": "rnd-id",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "MPL-2.0",
   "description": "Generate a random alpha string",
   "keywords": [
@@ -12,6 +12,7 @@
   "jsnext:main": "dist/rnd-id.es.js",
   "module": "dist/rnd-id.es.js",
   "entry": "src/index.js",
+  "files": ["dist"],
   "scripts": {
     "lint": "eslint . --fix",
     "fmt": "prettier --write --single-quote src/*.js",
