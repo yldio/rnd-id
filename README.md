@@ -1,8 +1,11 @@
 # rnd-id
 
+[![npm](https://img.shields.io/npm/v/rnd-id.svg?style=flat-square)](https://www.npmjs.com/package/rnd-id)
 [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg?style=flat-square)](https://opensource.org/licenses/MPL-2.0)
-[![npm](https://img.shields.io/npm/v/rnd-id.svg?style=flat-square)](https://npmjs.com/package/rnd-id)
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+
+[![David](https://img.shields.io/david/yldio/rnd-id.svg?style=flat-square)](https://david-dm.org/yldio/rnd-id)
+[![David](https://img.shields.io/david/dev/yldio/rnd-id.svg?style=flat-square)](https://david-dm.org/yldio/rnd-id?type=dev)
 
 Generate a random alphabetical string.
 
