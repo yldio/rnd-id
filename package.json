@@ -12,12 +12,16 @@
   "jsnext:main": "dist/rnd-id.es.js",
   "module": "dist/rnd-id.es.js",
   "entry": "src/index.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "lint": "eslint . --fix",
     "fmt": "prettier --write --single-quote src/*.js",
-    "test": "bup && cross-env NODE_ENV=test nyc --reporter=lcov --reporter=text ava",
+    "ava": "bup && cross-env NODE_ENV=test nyc --reporter=lcov --reporter=text ava",
     "build": "bup",
+    "test": "run-s lint ava size",
+    "size": "bundlesize",
     "prepublish": "bup"
   },
   "dependencies": {
@@ -30,6 +34,7 @@
     "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
     "babel-plugin-transform-es2015-template-literals": "^6.22.0",
     "babel-register": "^6.26.0",
+    "bundlesize": "^0.15.2",
     "bup": "^2.0.5",
     "cross-env": "^5.0.5",
     "eslint": "^4.8.0",
@@ -43,6 +48,7 @@
     "eslint-plugin-prettier": "^2.3.1",
     "eslint-plugin-react": "^7.4.0",
     "lodash.uniq": "^4.5.0",
+    "npm-run-all": "^4.1.1",
     "nyc": "^11.2.1",
     "tap-xunit": "^1.7.0"
   },
@@ -70,5 +76,11 @@
       "babel-register"
     ],
     "babel": "inherit"
-  }
+  },
+  "bundlesize": [
+    {
+      "path": "./src/index.js",
+      "maxSize": "385B"
+    }
+  ]
 }
