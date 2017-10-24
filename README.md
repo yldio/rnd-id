@@ -12,9 +12,9 @@ Generate a random alphabetical string.
 
 ## Table of Contents
 
-- [Install](#install)
-- [Usage](#usage)
-- [License](#license)
+* [Install](#install)
+* [Usage](#usage)
+* [License](#license)
 
 ## Install
 
@@ -27,12 +27,12 @@ yarn add --dev rnd-id
 ```js
 const rndId = require('rnd-id');
 
-console.log(rndId()) // kbtpZ
-console.log(rndId()) // cuBuLn
-console.log(rndId()) // sPwzn
-console.log(rndId()) // kKUko
-console.log(rndId()) // czzpgR
-console.log(rndId()) // cjtzdI
+console.log(rndId()); // kbtpZ
+console.log(rndId()); // cuBuLn
+console.log(rndId()); // sPwzn
+console.log(rndId()); // kKUko
+console.log(rndId()); // czzpgR
+console.log(rndId()); // cjtzdI
 ```
 
 ## License
