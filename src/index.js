@@ -9,7 +9,7 @@ let i = 0;
 
 const rndId = _code => {
   if (TEST && !_code) {
-    _code = i += 1;
+    _code = ++i;
   }
 
   const code = _code ? _code : randomNatural({ min: 1000000000 });

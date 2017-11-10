@@ -82,7 +82,7 @@
   "bundlesize": [
     {
       "path": "./src/index.js",
-      "maxSize": "385B"
+      "maxSize": "456B"
     }
   ]
 }
