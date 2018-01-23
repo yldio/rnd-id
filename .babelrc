@@ -1,0 +1,13 @@
+{
+  "sourceMaps": "inline",
+  "presets": [
+    "joyent-portal"
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+        "istanbul"
+      ]
+    }
+  }
+}
