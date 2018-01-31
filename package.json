@@ -31,7 +31,7 @@
     "babel-eslint": "^8.2.1",
     "babel-preset-joyent-portal": "^6.0.3",
     "build-array": "^1.0.0",
-    "bundlesize": "^0.15.3",
+    "bundlesize": "^0.16.0",
     "bup": "^4.1.6",
     "eslint": "^4.16.0",
     "eslint-config-joyent-portal": "3.3.1",
