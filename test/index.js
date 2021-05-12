@@ -21,7 +21,7 @@ test('should generate unique strings', t => {
   t.deepEqual(uniq(arr).length, arr.length);
 });
 
-test('should generate a lof ot unique strings', t => {
+test('should generate a lot of unique strings', t => {
   const arr = buildArray(1000).map(() => rndId());
   t.deepEqual(uniq(arr).length, arr.length);
 });
